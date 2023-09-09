@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Viewport Height */
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8); /* semi-transparent white */
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pokemon-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pokeImage {
+    width: 100%;
+    max-width: 150px;
+}
+
+/* Possible Pokemon type gradients (You can expand on this) */
+/* ... restante do seu CSS ... */
+
+/* Pok�mon type gradients */
+[data-bg-type="normal"] {
+    background: linear-gradient(to bottom, #E0E0E0, #A8A878);
+}
+
+[data-bg-type="fire"] {
+    background: linear-gradient(to bottom, #FF4422, #DD2211);
+}
+
+[data-bg-type="water"] {
+    background: linear-gradient(to bottom, #6688FF, #4455DD);
+}
+
+[data-bg-type="electric"] {
+    background: linear-gradient(to bottom, #FFDD33, #FFAA00);
+}
+
+[data-bg-type="grass"] {
+    background: linear-gradient(to bottom, #77CC55, #55AA33);
+}
+
+[data-bg-type="ice"] {
+    background: linear-gradient(to bottom, #88DDFF, #55BBDD);
+}
+
+[data-bg-type="fighting"] {
+    background: linear-gradient(to bottom, #BB5544, #882211);
+}
+
+[data-bg-type="poison"] {
+    background: linear-gradient(to bottom, #AA55BB, #880099);
+}
+
+[data-bg-type="ground"] {
+    background: linear-gradient(to bottom, #DDCC77, #BBAA66);
+}
+
+[data-bg-type="flying"] {
+    background: linear-gradient(to bottom, #8899FF, #6677BB);
+}
+
+[data-bg-type="psychic"] {
+    background: linear-gradient(to bottom, #FF5599, #DD2277);
+}
+
+[data-bg-type="bug"] {
+    background: linear-gradient(to bottom, #AABB22, #889900);
+}
+
+[data-bg-type="rock"] {
+    background: linear-gradient(to bottom, #BBA977, #887744);
+}
+
+[data-bg-type="ghost"] {
+    background: linear-gradient(to bottom, #6655BB, #442288);
+}
+
+[data-bg-type="dark"] {
+    background: linear-gradient(to bottom, #555555, #222222);
+}
+
+[data-bg-type="dragon"] {
+    background: linear-gradient(to bottom, #7766EE, #5533AA);
+}
+
+[data-bg-type="steel"] {
+    background: linear-gradient(to bottom, #AAAABB, #777788);
+}
+
+[data-bg-type="fairy"] {
+    background: linear-gradient(to bottom, #FFAAFF, #DD77DD);
+}
